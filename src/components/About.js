@@ -33,7 +33,8 @@ class About extends React.Component {
                             <div className="info">
                             <ScrollAnimation animateIn="animate__fadeInDown" delay="250">
                                 Allvoi Communications<br />
-                                Full Stack Dev | June 2020 - Present<br />
+                                Full Stack Developer<br /> 
+                                June 2020 - Present<br />
                                 <a href="https://www.allvoi.com/">allvoi.com</a>
                             </ScrollAnimation>
                             </div>

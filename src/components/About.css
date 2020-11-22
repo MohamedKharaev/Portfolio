@@ -22,8 +22,8 @@ a {
 	font-size: 20px !important;
 	line-height: 24px !important;
 	font-family: 'Cardo';
-	color: white;
 }
+
 
 @media (max-width: 768px) {
 	.info {
@@ -66,4 +66,8 @@ a {
 
 .icons {
     text-align: center
+}
+
+.about {
+	padding-bottom: 50px;
 }
