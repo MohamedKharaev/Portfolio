@@ -1,0 +1,19 @@
+.home {
+	background-image: url('../assets/Background.gif');
+	background-size: auto 800px;
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+	color: white;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home h1 {
+    font-family: 'Oswald';
+    font-size: 3em;
+}

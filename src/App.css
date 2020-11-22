@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.app {
+    max-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menu a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .8;
+    font-family: 'Oswald';
+    font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu a:hover {
+    opacity: 1;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ui.compact.menu {
+    background: transparent !important;
+    position: fixed;
+    z-index: 50 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.ui.menu {
+    background-color: transparent !important;
+    border: 0 !important;
+    -webkit-box-shadow: 0 !important;
+    box-shadow: 0 0 0 0 !important;
+    border-radius: 0 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ui.menu::after {
+    visibility: visible !important;
+}
+
+.ui.menu::before {
+    visibility: visible !important;
+}
+
+.menu.item {
+    background: transparent !important;
+}
+
+.ui.menu .ui.dropdown .menu>.item {
+    background: transparent !important;
+    color: white !important;
+
+}
+
+.ui.dropdown .menu {
+    border: 0px !important;
+}
+
+.ui.menu .dropdown.item .menu {
+    -webkit-box-shadow: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.dropdown.item:hover {
+    background: transparent !important;
 }

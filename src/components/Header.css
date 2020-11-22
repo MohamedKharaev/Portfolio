@@ -1,0 +1,13 @@
+h1 {
+    color: white;
+    font-size: 60px !important;
+    font-family: 'Oswald' !important;
+    text-transform: uppercase;
+}
+
+.header-container {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

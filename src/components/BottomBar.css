@@ -1,0 +1,24 @@
+.BottomBar {
+	position: fixed;
+	bottom: 0;
+	text-align: right;
+	width: 99%;
+	padding-bottom: 1%;
+	transition: all 0.3s ease;
+}
+
+.BottomBar i {
+	opacity: .8;
+	font-size: 3em;
+	color: white;
+}
+
+.BottomBar i:hover {
+	opacity: 1;
+}
+
+@media (max-width: 768px) {
+	.BottomBar {
+		visibility: hidden;
+	}
+}
