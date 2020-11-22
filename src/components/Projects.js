@@ -23,7 +23,7 @@ class Projects extends React.Component {
         return (
 			<div>
 			<Header text="projects"/>
-			<ScrollAnimation animateIn="animate__fadeInDown" delay="250" duration="1.5">
+			<ScrollAnimation animateIn="animate__fadeInDown" duration="1.5">
         	<div className="projects ui container">
 				<div className="ui special cards">
 				  <div className="ui centered card">
