@@ -15,7 +15,7 @@ class About extends React.Component {
         			<div className="ui row">
 						<div className="column eight wide">
                             <div className="info">
-                                <ScrollAnimation animateIn="animate__fadeInDown">
+                                <ScrollAnimation animateIn="animate__fadeInDown" offset="0">
                                     UC Irvine Class of 2020<br />
                                     B.S. in Computer Science<br />
                                     &nbsp;&nbsp;&nbsp;&nbsp;- Specialization in ML/AI
@@ -23,7 +23,7 @@ class About extends React.Component {
                             </div>
 						</div>
                         <div className="column eight wide">
-                            <ScrollAnimation animateIn="animate__fadeInDown">
+                            <ScrollAnimation animateIn="animate__fadeInDown" offset="0" >
                                 <img alt="UC Irvine Logo" src="School Logo.png" className="grow logo"/>
                             </ScrollAnimation>
                         </div>
@@ -31,7 +31,7 @@ class About extends React.Component {
                     <div className="ui row">
                         <div className="column eight wide">
                             <div className="info">
-                            <ScrollAnimation animateIn="animate__fadeInDown" delay="125">
+                            <ScrollAnimation animateIn="animate__fadeInDown" offset="0"  delay="125">
                                 Allvoi Communications<br />
                                 Full Stack Developer<br /> 
                                 June 2020 - Present<br />
@@ -40,7 +40,7 @@ class About extends React.Component {
                             </div>
                         </div>
                         <div className="column eight wide">
-                            <ScrollAnimation animateIn="animate__fadeInDown" delay="125" className="icons">
+                            <ScrollAnimation animateIn="animate__fadeInDown" offset="0"  delay="125" className="icons">
                             <a href="https://www.allvoi.com/"><img src="Allvoi Logo.png" className="grow logo" /></a>
                             </ScrollAnimation>
                         </div>
@@ -48,16 +48,16 @@ class About extends React.Component {
                     <div className="ui row">
                         <div className="column eight wide">
                             <div className="info">
-                            <ScrollAnimation animateIn="animate__fadeInDown" delay="250">
+                            <ScrollAnimation animateIn="animate__fadeInDown" offset="0"  delay="250">
                                 My goal as a software engineer is to write efficient,
-                                clean code, and creating great user experiences. I am a full 
+                                clean code, and create great user experiences. I am a full 
                                 Stack Developer most recently
                                 working with React.js, React Native, Python, and C++. 
                             </ScrollAnimation>
                             </div>
                         </div>
                         <div className="column eight wide">
-                            <ScrollAnimation animateIn="animate__fadeInDown" delay="250" className="icons">
+                            <ScrollAnimation animateIn="animate__fadeInDown" offset="0"  delay="250" className="icons">
                                 <img src="React-Logo.png" className="grow icon" />
                                 <img src="C++-Logo.png" className="grow icon"/>
                                 <img src="Python-Logo.png" className="grow icon"/>
